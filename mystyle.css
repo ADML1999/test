@@ -90,3 +90,9 @@ footer {
     align-items: center;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 480px){
+    h1 {
+        display: none;
+    }
+}
