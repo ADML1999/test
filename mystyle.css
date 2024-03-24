@@ -24,11 +24,8 @@ header {
     color: transparent;
     -webkit-text-stroke: 1px orangered;
     background-image: linear-gradient(to left, red, red, orangered, orangered, black, black, black, black);
-    orangeredkground-size: 200%;
     -webkit-background-clip: text;
     animation: move 20s linear infinite;
-    display: flex;
-    align-items: center;
 }
 @keyframes move {
     100% {
