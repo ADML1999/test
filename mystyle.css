@@ -67,9 +67,9 @@ ul li.item-menu a{
     color: white;
     text-decoration: none;
     font-size: 35px;
-    padding: 55px 10px;
+    padding: 110px 0 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     line-height: 50px;
 }
 ul li.item-menu a .icon > i {
@@ -112,6 +112,12 @@ h5 {
     h5 {
         display: block;
         font-size: 1rem;
+    }
+    .menu {
+        padding: 50px 0 55px;
+    }
+    .bttn-hamburguer {
+        top: 0;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 644px) {
